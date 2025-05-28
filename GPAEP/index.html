@@ -11,30 +11,62 @@
     
 </header>
 <body>
-    <nav class="sidebar-navigation">
-	<ul>
-		<li class="active">
-			<i class="fa fa-share-alt"></i>
-			<span class="tooltip">Connections</span>
-		</li>
-		<li>
-			<i class="fa fa-hdd-o"></i>
-			<span class="tooltip">Devices</span>
-		</li>
-		<li>
-			<i class="fa fa-newspaper-o"></i>
-			<span class="tooltip">Contacts</span>
-		</li>
-		<li>
-			<i class="fa fa-print"></i>
-			<span class="tooltip">Fax</span>
-		</li>
-		<li>
-			<i class="fa fa-sliders"></i>
-			<span class="tooltip">Settings</span>
-		</li>
-	</ul>
-</nav>
+    <nav class="sidebar-navigation" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="fas fa-graduation-cap logo-icon"></i>
+                <span class="logo-text">GPAEP</span>
+            </div>
+            <button class="toggle-btn" id="toggle-btn">
+                <i class="fas fa-angle-left"></i>
+            </button>
+        </div>
+        
+        <div class="menu-items">
+            <a href="#" class="menu-item active">
+                <i class="fas fa-home menu-icon"><img src="icons/Sem título-1.png" class="addcloud" width="50px"></i>
+                <span class="menu-text">Adicionar Produto</span>
+                <span class="tooltip"></span>
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-user-graduate menu-icon"></i>
+                <span class="menu-text">Alunos</span>
+                <span class="tooltip">Alunos</span>
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-chalkboard-teacher menu-icon"></i>
+                <span class="menu-text">Professores</span>
+                <span class="tooltip">Professores</span>
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-book menu-icon"></i>
+                <span class="menu-text">Disciplinas</span>
+                <span class="tooltip">Disciplinas</span>
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-calendar-alt menu-icon"></i>
+                <span class="menu-text">Calendário</span>
+                <span class="tooltip">Calendário</span>
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-chart-line menu-icon"></i>
+                <span class="menu-text">Relatórios</span>
+                <span class="tooltip">Relatórios</span>
+            </a>
+            <a href="#" class="menu-item">
+                <i class="fas fa-cog menu-icon"></i>
+                <span class="menu-text">Configurações</span>
+                <span class="tooltip">Configurações</span>
+            </a>
+            <div class="mt-4">
+                <a href="#" class="menu-item">
+                    <i class="fas fa-sign-out-alt menu-icon"></i>
+                    <span class="menu-text">Sair</span>
+                    <span class="tooltip">Sair</span>
+                </a>
+            </div>
+        </div>
+    </nav>
     
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>

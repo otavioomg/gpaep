@@ -6,6 +6,7 @@
             --accent-color: #e74c3c;
             --hover-color: #34495e;
             --active-color: #2980b9;
+
         }
 
         * {
@@ -16,10 +17,14 @@
         }
 
         body {
+            background-repeat: no-repeat;
+            background-size: cover;
             display: flex;
             min-height: 100vh;
-            background-color: #f8f9fa;
+            background-color: #12175a;
             color: #333;
+            background-image:url("https://ogimg.infoglobo.com.br/in/3019654-a9a-b0d/FT1086A/Thomas-e-orem-numero-um-da-Ilha-de-Sodor.jpg");
+          
         }
 
         /* Menu Lateral */
@@ -110,3 +115,62 @@
             transition: opacity 0.3s;
             white-space: nowrap;
         }
+
+        .formulario{
+            position: fixed;
+            height: 30vh;
+            width: 30vw;
+            background-color: rgb(48, 48, 48);
+            margin-top: 40vh;
+            margin-left: 50vw;
+            flex-direction: column;
+            border-radius: 15px;
+            border: solid 4px #2eff73;
+            display: flex;
+            padding: 20px 20px;
+            
+        }
+
+        .hidden{
+            display:none;
+        }
+        .botao{
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .item{
+            border-radius: 15px;
+            border: none;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        .quantidade{
+            border-radius: 15px;
+            border: none;
+            margin-bottom: 15px;
+            padding: 10px;
+
+        }
+
+        .grupo-nome {
+            position: relative;
+        }
+
+        label {
+            color: var(--verde);
+            padding: 0 5px;
+            position: absolute;
+            transform: translateY(-50%);
+            top: 50%;
+            left: 1em;
+            pointer-events: none;
+            transition: .3s;
+        }
+
+        input {
+            
+        }
+

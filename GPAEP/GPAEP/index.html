@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPAEP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<header>
+    
+</header>
+<body>
+    <nav class="sidebar-navigation" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="fas fa-graduation-cap logo-icon"></i>
+                <span class="logo-text">GPAEP</span>
+            </div>
+            <button class="toggle-btn" id="toggle-btn">
+                <i class="fas fa-angle-left"></i>
+            </button>
+        </div>
+        
+        <div class="menu-items">
+            <a href="#" class="menu-item active" id="adicionar">
+                <i class="fas fa-home menu-icon"><img src="icons/Sem título-1.png" class="addcloud" width="40px"></i>
+                <span class="menu-text">Adicionar Produto</span>
+                <span class="tooltip"></span>
+            </a>
+              <div class="menu-items">
+            <a href="#" class="menu-item active" id="remover">
+                <i class="fas fa-home menu-icon"><img src="icons/x-mark-48.png" class="addcloud" width="40px"></i>
+                <span class="menu-text">Remover Produto</span>
+                <span class="tooltip"></span>
+            </a>
+         
+            <div class="menu-items">
+            <a href="#" class="menu-item active" id="adicionar">
+                <i class="fas fa-home menu-icon"><img src="icons/icons8-moeda-100 (1).png" class="addcloud" width="40px"></i>
+                <span class="menu-text">Produtos mais Vendidos</span>
+                <span class="tooltip"></span>
+            </a>
+             <div class="menu-items">
+            <a href="#" class="menu-item active" id="adicionar">
+                <i class="fas fa-home menu-icon"><img src="icons/Alerta2.png" class="addcloud" width="50px"></i>
+                <span class="menu-text">Em Falta</span>
+                <span class="tooltip"></span>
+            </a>
+            <div class="mt-4">
+                <a href="#" class="menu-item">
+                    <i class="fas fa-sign-out-alt menu-icon"></i>
+                    <span class="menu-text">Sair</span>
+                    <span class="tooltip">Sair</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    
+    
+        <section>
+            <form action="" class="formulario hidden">
+                    <h3>Adicionar Item</h3>
+                    <input type="text" placeholder="Digite o item" class="item">
+                    <input type="int" placeholder=" Digite a quantidade do item" class="quantidade">
+                    <input type="submit" placeholder="nada" class="botao">
+            </form>
+        </section>
+                <section>
+            <form action="" class="formulario hidden" id = "formulario">
+                    <h3>Remover Item</h3>
+                    <input type="text" placeholder="Digite o item" class="item">
+                    <input type="int" placeholder=" Digite a quantidade do item" class="quantidade">
+                    <input type="submit" placeholder="nada" class="botao">
+            </form>
+        </section>
+    
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
